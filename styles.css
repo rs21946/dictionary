@@ -1,0 +1,223 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-top: 7%;
+    background-image: url(https://www.hdwallback.net/wp-content/uploads/2018/01/CSS-Background-Color-Tutorial-background-images-2560x1440.jpg);
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    
+    
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.header img{
+    height: 100%;
+    margin-right: 2%;
+}
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+.header button{
+    margin-left: auto;
+    margin-right: 5%;
+    width: 150px;
+    height: 45px;
+    background-color: black;
+    color: yellow;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.header button:hover{
+    box-shadow: 0 0 8px black;
+}
+
+/* search page */
+.searchpage{
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-text{
+    margin-top: 7%;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+.searchbar{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: 7%;
+    justify-content: center;
+}
+.searchbar input{
+    width: 260px;
+    height: 31px;
+    border: none;
+    border-radius: 17px;
+    background-color: rgb(200, 160, 206);
+}
+.searchbar img{
+    height: 100%;
+    width: 15%;
+    margin-left: 3%;
+    cursor: pointer;
+}
+.result{
+    margin-top: 3%;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+#result{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+#dlt{
+    margin-left: auto;
+    margin-top: auto;
+    width: 15%;
+    cursor: pointer;
+}
+.newdiv{
+    background-color: rgb(231, 229, 229) ;
+    margin: 3% 3%;
+    height: auto;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 2%;
+    width: 23%;
+    border: solid 1px rgb(13, 68, 70);
+}
+.newdiv:hover{
+    box-shadow: 0 0 10px black;
+}
+.history{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.newdiv p{
+    margin-bottom: 20%;
+}
+#input{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+#input:hover{
+    box-shadow: 0 0 5px black;
+}
+.searching{
+    margin-top: 0.5%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 13%;
+}
+
+.inpword{
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#length{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: crimson;
+}
+
+/* Responsive */
+@media screen and (max-width: 673px){
+    .body {
+        margin-top: 17%;
+        width: 87%;
+        margin-bottom: 15%;
+    }
+    .header img {
+        height: 60%;
+    }
+    .heading {
+        font-size: 20px;
+        text-align: center;
+    }
+    .header button {
+        margin-right: 1%;
+        font-size: 14px;
+        width: 95px;
+        height: 38px;
+    }
+    .header {
+        background-color: white;
+        box-shadow: 0 0 8px black;
+    }
+    .search-text {
+        margin-top: 17%;
+        font-size: 26px;
+    }
+    .searchbar input {
+        width: 227px;
+        margin-top: 9%;
+    }
+    .searchbar img {
+        margin-top: 8%;
+        margin-right: 5%;
+    }
+    .searching {
+        margin-top: 5.5%;
+        font-size: 15px;
+        margin-right: 14%;
+    }
+    #result {
+        height: 264px;
+    }
+    .searchpage {
+        height: 202px;
+    }
+    .result {
+        margin-top: 8%;
+    }
+    .newdiv {
+        width: 39%;
+        margin-top: 9%;
+    }
+    .newdiv span{
+        /* font-size: 20px; */
+        font-weight: bold;
+    }
+    .newdiv img{
+        width: 24% !important;
+    }
+}
