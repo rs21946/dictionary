@@ -27,7 +27,7 @@
 .heading{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 4vw;
 }
 .header button{
     margin-left: auto;
@@ -172,6 +172,7 @@
     .heading {
         font-size: 20px;
         text-align: center;
+        padding-left: 5px;
     }
     .header button {
         margin-right: 1%;
@@ -180,8 +181,9 @@
         height: 38px;
     }
     .header {
-        background-color: white;
-        box-shadow: 0 0 8px black;
+        background-color: rgb(245, 234, 234);
+        width: auto;
+        box-shadow: 0 0 1px black;
     }
     .search-text {
         margin-top: 17%;
@@ -190,6 +192,7 @@
     .searchbar input {
         width: 227px;
         margin-top: 9%;
+        margin-bottom: 11px;
     }
     .searchbar img {
         margin-top: 8%;
